@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 
 export default function Home() {
@@ -34,12 +35,11 @@ export default function Home() {
           </a>
         </li>
         <li>
-          <a
-            href="#"
+        <Link href="/About"
             className="text-sm font-semibold text-gray-800 hover:text-gray-900"
           >
             About
-          </a>
+            </Link>
         </li>
         <li>
           <a
